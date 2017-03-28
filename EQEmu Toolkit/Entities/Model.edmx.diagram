@@ -1,0 +1,292 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="c30e4368c72a4528a453176ba5b79189" Name="Diagram1">
+        <EntityTypeShape EntityType="axclassicModel.aa_ability" Width="1.5" PointX="5.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="axclassicModel.aa_actions" Width="1.5" PointX="5.75" PointY="5.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="axclassicModel.aa_effects" Width="1.5" PointX="7.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="axclassicModel.aa_rank_effects" Width="1.5" PointX="7.75" PointY="3.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="axclassicModel.aa_rank_prereqs" Width="1.5" PointX="7.75" PointY="6.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="axclassicModel.aa_ranks" Width="1.5" PointX="9.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="axclassicModel.aa_required_level_cost" Width="1.5" PointX="7.75" PointY="9.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="axclassicModel.aa_swarmpets" Width="1.5" PointX="5.75" PointY="12.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="axclassicModel.aa_timers" Width="1.5" PointX="7.75" PointY="12.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="axclassicModel.account" Width="1.5" PointX="17.75" PointY="7.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="axclassicModel.account_flags" Width="1.5" PointX="17.75" PointY="13.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="axclassicModel.activity" Width="1.5" PointX="17.75" PointY="16.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="axclassicModel.adventure_details" Width="1.5" PointX="19.75" PointY="7.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="axclassicModel.adventure_members" Width="1.5" PointX="19.75" PointY="11.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="axclassicModel.adventure_stats" Width="1.5" PointX="19.75" PointY="14.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="axclassicModel.adventure_template" Width="1.5" PointX="19.75" PointY="18.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="axclassicModel.adventure_template_entry" Width="1.5" PointX="20.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="axclassicModel.adventure_template_entry_flavor" Width="1.5" PointX="20.75" PointY="3.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="axclassicModel.altadv_vars" Width="1.5" PointX="7.75" PointY="20.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="axclassicModel.alternate_currency" Width="1.5" PointX="9.75" PointY="20.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="axclassicModel.banned_ips" Width="1.5" PointX="21.75" PointY="6.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="axclassicModel.base_data" Width="1.5" PointX="21.75" PointY="9.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="axclassicModel.blocked_spells" Width="1.5" PointX="21.75" PointY="13.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="axclassicModel.bot_buffs" Width="1.5" PointX="3" PointY="5.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="axclassicModel.bot_command_settings" Width="1.5" PointX="15.75" PointY="21.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="axclassicModel.bot_data" Width="1.5" PointX="0.75" PointY="12.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="axclassicModel.bot_group_members" Width="1.5" PointX="5.25" PointY="16.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="axclassicModel.bot_groups" Width="1.5" PointX="3" PointY="13.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="axclassicModel.bot_guild_members" Width="1.5" PointX="21.75" PointY="18.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="axclassicModel.bot_heal_rotation_members" Width="1.5" PointX="8.25" PointY="17.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="axclassicModel.bot_heal_rotation_targets" Width="1.5" PointX="5.25" PointY="19.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="axclassicModel.bot_heal_rotations" Width="1.5" PointX="3" PointY="19.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="axclassicModel.bot_inspect_messages" Width="1.5" PointX="22.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="axclassicModel.bot_inventories" Width="1.5" PointX="3" PointY="22.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="axclassicModel.bot_pet_buffs" Width="1.5" PointX="5.25" PointY="27.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="axclassicModel.bot_pet_inventories" Width="1.5" PointX="5.25" PointY="30.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="axclassicModel.bot_pets" Width="1.5" PointX="3" PointY="28.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="axclassicModel.bot_spell_casting_chances" Width="1.5" PointX="21.75" PointY="22.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="axclassicModel.bot_spells_entries" Width="1.5" PointX="23.75" PointY="3.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="axclassicModel.bot_stances" Width="1.5" PointX="3" PointY="33.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="axclassicModel.bot_timers" Width="1.5" PointX="3" PointY="35.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="axclassicModel.botbuffs___" Width="1.5" PointX="13" PointY="1.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="axclassicModel.botgroup_old" Width="1.5" PointX="13" PointY="7" IsExpanded="true" />
+        <EntityTypeShape EntityType="axclassicModel.botgroupmembers_old" Width="1.5" PointX="15.25" PointY="10.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="axclassicModel.botguildmembers_old" Width="1.5" PointX="23.75" PointY="7.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="axclassicModel.botinventory_old" Width="1.5" PointX="13" PointY="9.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="axclassicModel.botpetbuffs_old" Width="1.5" PointX="15.25" PointY="14" IsExpanded="true" />
+        <EntityTypeShape EntityType="axclassicModel.botpetinventory_old" Width="1.5" PointX="15.25" PointY="16.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="axclassicModel.botpets_old" Width="1.5" PointX="13" PointY="14.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="axclassicModel.bots_old" Width="1.5" PointX="10.75" PointY="7.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="axclassicModel.botstances_old" Width="1.5" PointX="13" PointY="19.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="axclassicModel.bottimers_old" Width="1.5" PointX="13" PointY="21.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="axclassicModel.bug" Width="1.5" PointX="9.75" PointY="23.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="axclassicModel.buyer" Width="1.5" PointX="23.75" PointY="11.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="axclassicModel.char_create_combinations" Width="1.5" PointX="23.75" PointY="14.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="axclassicModel.char_create_point_allocations" Width="1.5" PointX="23.75" PointY="17.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="axclassicModel.char_recipe_list" Width="1.5" PointX="23.75" PointY="22.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="axclassicModel.character_activities" Width="1.5" PointX="24.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="axclassicModel.character_alt_currency" Width="1.5" PointX="11.75" PointY="24.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="axclassicModel.character_alternate_abilities" Width="1.5" PointX="13.75" PointY="24.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="axclassicModel.character_alternate_abilities_old" Width="1.5" PointX="15.75" PointY="24.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="axclassicModel.character_backup" Width="1.5" PointX="25.75" PointY="3.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="axclassicModel.character_bandolier" Width="1.5" PointX="25.75" PointY="8.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="axclassicModel.character_bind" Width="1.5" PointX="25.75" PointY="11.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="axclassicModel.character_buffs" Width="1.5" PointX="25.75" PointY="15.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="axclassicModel.character_corpse_items" Width="1.5" PointX="25.75" PointY="21.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="axclassicModel.character_corpses" Width="1.5" PointX="23.75" PointY="25.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="axclassicModel.character_currency" Width="1.5" PointX="25.75" PointY="25.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="axclassicModel.character_data" Width="1.5" PointX="17.75" PointY="26.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="axclassicModel.character_data__" Width="1.5" PointX="27.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="axclassicModel.character_disciplines" Width="1.5" PointX="11.75" PointY="27.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="axclassicModel.character_enabledtasks" Width="1.5" PointX="13.75" PointY="27.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="axclassicModel.character_inspect_messages" Width="1.5" PointX="27.75" PointY="21.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="axclassicModel.character_item_recast" Width="1.5" PointX="27.75" PointY="24.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="axclassicModel.character_languages" Width="1.5" PointX="27.75" PointY="27.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="axclassicModel.character_leadership_abilities" Width="1.5" PointX="7.75" PointY="28.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="axclassicModel.character_material" Width="1.5" PointX="19.75" PointY="28.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="axclassicModel.character_memmed_spells" Width="1.5" PointX="29.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="axclassicModel.character_old" Width="1.5" PointX="29.75" PointY="3.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="axclassicModel.character_pet_buffs" Width="1.5" PointX="29.75" PointY="9.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="axclassicModel.character_pet_info" Width="1.5" PointX="29.75" PointY="13.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="axclassicModel.character_pet_inventory" Width="1.5" PointX="29.75" PointY="17.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="axclassicModel.character_potionbelt" Width="1.5" PointX="29.75" PointY="20.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="axclassicModel.character_skills" Width="1.5" PointX="29.75" PointY="23.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="axclassicModel.character_spells" Width="1.5" PointX="29.75" PointY="26.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="axclassicModel.character_tasks" Width="1.5" PointX="29.75" PointY="29.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="axclassicModel.chatchannel" Width="1.5" PointX="9.75" PointY="30.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="axclassicModel.class_skill" Width="1.5" PointX="11.75" PointY="30.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="axclassicModel.command_settings" Width="1.5" PointX="13.75" PointY="30.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="axclassicModel.commands_old" Width="1.5" PointX="31.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="axclassicModel.completed_tasks" Width="1.5" PointX="31.75" PointY="3.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="axclassicModel.damageshieldtype" Width="1.5" PointX="31.75" PointY="6.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="axclassicModel.db_str" Width="1.5" PointX="31.75" PointY="9.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="axclassicModel.discovered_items" Width="1.5" PointX="31.75" PointY="12.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="axclassicModel.door" Width="1.5" PointX="31.75" PointY="15.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="axclassicModel.editor_values" Width="1.5" PointX="31.75" PointY="23.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="axclassicModel.eqbnew" Width="1.5" PointX="25.75" PointY="31.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="axclassicModel.eventlog" Width="1.5" PointX="31.75" PointY="27.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="axclassicModel.faction_list" Width="1.5" PointX="31.75" PointY="31.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="axclassicModel.faction_list_mod" Width="1.5" PointX="19.75" PointY="32.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="axclassicModel.faction_values" Width="1.5" PointX="27.75" PointY="32.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="axclassicModel.fear_hints" Width="1.5" PointX="33.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="axclassicModel.fishing" Width="1.5" PointX="33.75" PointY="4.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="axclassicModel.forage" Width="1.5" PointX="5.75" PointY="33.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="axclassicModel.friend" Width="1.5" PointX="7.75" PointY="33.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="axclassicModel.goallist" Width="1.5" PointX="33.75" PointY="8.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="axclassicModel.graveyard" Width="1.5" PointX="33.75" PointY="11.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="axclassicModel.grid" Width="1.5" PointX="13.75" PointY="33.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="axclassicModel.grid_entries" Width="1.5" PointX="33.75" PointY="14.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="axclassicModel.ground_spawns" Width="1.5" PointX="33.75" PointY="18.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="axclassicModel.group_id" Width="1.5" PointX="33.75" PointY="23.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="axclassicModel.group_leaders" Width="1.5" PointX="33.75" PointY="26.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="axclassicModel.group_leaders__" Width="1.5" PointX="33.75" PointY="30.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="axclassicModel.guild_alliances" Width="1.5" PointX="33.75" PointY="34.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="axclassicModel.guild_controllers" Width="1.5" PointX="35.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="axclassicModel.guild_ranks" Width="1.5" PointX="35.75" PointY="3.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="axclassicModel.guild_relations" Width="1.5" PointX="35.75" PointY="7.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="axclassicModel.guild" Width="1.5" PointX="35.75" PointY="10.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="axclassicModel.hacker" Width="1.5" PointX="35.75" PointY="14.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="axclassicModel.hors" Width="1.5" PointX="35.75" PointY="17.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="axclassicModel.instance_list" Width="1.5" PointX="19.75" PointY="35.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="axclassicModel.instance_list_player" Width="1.5" PointX="35.75" PointY="20.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="axclassicModel.inventory" Width="1.5" PointX="35.75" PointY="23.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="axclassicModel.inventory_snapshots" Width="1.5" PointX="25.75" PointY="35.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="axclassicModel.ip_exemptions" Width="1.5" PointX="27.75" PointY="35.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="axclassicModel.item_tick" Width="1.5" PointX="35.75" PointY="28.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="axclassicModel.launcher" Width="1.5" PointX="35.75" PointY="31.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="axclassicModel.launcher_zones" Width="1.5" PointX="35.75" PointY="34.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="axclassicModel.ldon_trap_entries" Width="1.5" PointX="5.75" PointY="36.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="axclassicModel.ldon_trap_templates" Width="1.5" PointX="7.75" PointY="36.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="axclassicModel.level_exp_mods" Width="1.5" PointX="13.75" PointY="36.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="axclassicModel.lfguild" Width="1.5" PointX="21.75" PointY="36.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="axclassicModel.login_accounts" Width="1.5" PointX="37.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="axclassicModel.login_authchange" Width="1.5" PointX="37.75" PointY="4.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="axclassicModel.login_worldservers" Width="1.5" PointX="37.75" PointY="7.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="axclassicModel.logsys_categories" Width="1.5" PointX="37.75" PointY="11.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="axclassicModel.lootdrop" Width="1.5" PointX="37.75" PointY="14.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="axclassicModel.lootdrop_entries" Width="1.5" PointX="37.75" PointY="17.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="axclassicModel.loottable" Width="1.5" PointX="37.75" PointY="21.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="axclassicModel.loottable_entries" Width="1.5" PointX="37.75" PointY="24.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="axclassicModel.mail" Width="1.5" PointX="37.75" PointY="27.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="axclassicModel.merc_armorinfo" Width="1.5" PointX="37.75" PointY="31.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="axclassicModel.merc_buffs" Width="1.5" PointX="18" PointY="1.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="axclassicModel.merc_spell_list_entries" Width="1.5" PointX="3" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="axclassicModel.merc_spell_lists" Width="1.5" PointX="0.75" PointY="1.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="axclassicModel.merc_stats" Width="1.5" PointX="33.75" PointY="37.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="axclassicModel.merc_weaponinfo" Width="1.5" PointX="37.75" PointY="35.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="axclassicModel.merchantlist" Width="1.5" PointX="0.75" PointY="38.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="axclassicModel.merchantlist_temp" Width="1.5" PointX="2.75" PointY="38.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="axclassicModel.merchantset" Width="1.5" PointX="27.75" PointY="38.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="axclassicModel.merc" Width="1.5" PointX="15.75" PointY="1.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="axclassicModel.name_filter" Width="1.5" PointX="39.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="axclassicModel.npc_emotes" Width="1.5" PointX="39.75" PointY="2.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="axclassicModel.npc_faction" Width="1.5" PointX="4.75" PointY="39.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="axclassicModel.npc_faction_entries" Width="1.5" PointX="39.75" PointY="5.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="axclassicModel.npc_spells" Width="1.5" PointX="6.75" PointY="39.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="axclassicModel.npc_spells_effects" Width="1.5" PointX="39.75" PointY="8.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="axclassicModel.npc_spells_effects_entries" Width="1.5" PointX="8.75" PointY="39.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="axclassicModel.npc_spells_entries" Width="1.5" PointX="39.75" PointY="11.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="axclassicModel.npc_types" Width="1.5" PointX="13.75" PointY="39.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="axclassicModel.npc_types_metadata" Width="1.5" PointX="39.75" PointY="15.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="axclassicModel.npc_types_tint" Width="1.5" PointX="39.75" PointY="18.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="axclassicModel.object" Width="1.5" PointX="39.75" PointY="26.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="axclassicModel.object_contents" Width="1.5" PointX="39.75" PointY="33.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="axclassicModel.peq_admin" Width="1.5" PointX="35.75" PointY="39.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="axclassicModel.perl_event_export_settings" Width="1.5" PointX="37.75" PointY="39.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="axclassicModel.petition" Width="1.5" PointX="39.75" PointY="38.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="axclassicModel.pet" Width="1.5" PointX="19.75" PointY="40.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="axclassicModel.pets__" Width="1.5" PointX="21.75" PointY="40.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="axclassicModel.player_corpses_backup" Width="1.5" PointX="41.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="axclassicModel.player_titlesets" Width="1.5" PointX="41.75" PointY="4.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="axclassicModel.proximity" Width="1.5" PointX="41.75" PointY="7.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="axclassicModel.qed_admin" Width="1.5" PointX="41.75" PointY="11.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="axclassicModel.qed_zone" Width="1.5" PointX="41.75" PointY="14.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="axclassicModel.qs_merchant_transaction_record" Width="1.5" PointX="41.75" PointY="17.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="axclassicModel.qs_player_aa_rate_hourly" Width="1.5" PointX="41.75" PointY="22.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="axclassicModel.qs_player_delete_record" Width="1.5" PointX="23.75" PointY="41.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="axclassicModel.qs_player_events" Width="1.5" PointX="41.75" PointY="25.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="axclassicModel.qs_player_handin_record" Width="1.5" PointX="25.75" PointY="41.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="axclassicModel.qs_player_move_record" Width="1.5" PointX="27.75" PointY="41.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="axclassicModel.qs_player_npc_kill_record" Width="1.5" PointX="41.75" PointY="28.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="axclassicModel.qs_player_speech" Width="1.5" PointX="41.75" PointY="31.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="axclassicModel.qs_player_trade_record" Width="1.5" PointX="41.75" PointY="35.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="axclassicModel.quest_globals" Width="1.5" PointX="41.75" PointY="40.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="axclassicModel.quest_items" Width="1.5" PointX="0.75" PointY="42.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="axclassicModel.race" Width="1.5" PointX="2.75" PointY="42.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="axclassicModel.raid_details" Width="1.5" PointX="43.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="axclassicModel.raid_groups" Width="1.5" PointX="43.75" PointY="3.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="axclassicModel.raid_leader" Width="1.5" PointX="43.75" PointY="6.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="axclassicModel.raid_members" Width="1.5" PointX="8.75" PointY="43.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="axclassicModel.raid_ungrouped_members" Width="1.5" PointX="43.75" PointY="9.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="axclassicModel.report" Width="1.5" PointX="43.75" PointY="12.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="axclassicModel.respawn_times" Width="1.5" PointX="43.75" PointY="15.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="axclassicModel.rule_sets" Width="1.5" PointX="43.75" PointY="18.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="axclassicModel.rule_values" Width="1.5" PointX="43.75" PointY="21.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="axclassicModel.saylink" Width="1.5" PointX="43.75" PointY="24.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="axclassicModel.skill_caps" Width="1.5" PointX="43.75" PointY="27.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="axclassicModel.spawn_conditions" Width="1.5" PointX="43.75" PointY="30.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="axclassicModel.spawn_events" Width="1.5" PointX="43.75" PointY="33.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="axclassicModel.spawn2" Width="1.5" PointX="35.75" PointY="43.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="axclassicModel.spawnentry" Width="1.5" PointX="37.75" PointY="43.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="axclassicModel.spawngroup" Width="1.5" PointX="43.75" PointY="38.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="axclassicModel.spells_new" Width="1.5" PointX="39.75" PointY="43.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="axclassicModel.start_zones" Width="1.5" PointX="41.75" PointY="43.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="axclassicModel.starting_items" Width="1.5" PointX="43.75" PointY="43.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="axclassicModel.starting_items___" Width="1.5" PointX="19.75" PointY="44.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="axclassicModel.task" Width="1.5" PointX="21.75" PointY="44.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="axclassicModel.taskset" Width="1.5" PointX="29.75" PointY="44.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="axclassicModel.taunt_flags" Width="1.5" PointX="45.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="axclassicModel.tblloginserveraccount" Width="1.5" PointX="0.75" PointY="45.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="axclassicModel.tblserveradminregistration" Width="1.5" PointX="2.75" PointY="45.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="axclassicModel.tblserverlisttype" Width="1.5" PointX="45.75" PointY="3.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="axclassicModel.tblworldserverregistration" Width="1.5" PointX="4.75" PointY="45.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="axclassicModel.timer" Width="1.5" PointX="45.75" PointY="6.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="axclassicModel.title" Width="1.5" PointX="45.75" PointY="9.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="axclassicModel.trader" Width="1.5" PointX="45.75" PointY="14.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="axclassicModel.tradeskill_recipe" Width="1.5" PointX="45.75" PointY="17.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="axclassicModel.tradeskill_recipe_entries" Width="1.5" PointX="45.75" PointY="21.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="axclassicModel.trap" Width="1.5" PointX="45.75" PointY="25.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="axclassicModel.tribute_levels" Width="1.5" PointX="45.75" PointY="31.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="axclassicModel.tribute" Width="1.5" PointX="45.75" PointY="34.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="axclassicModel.variable" Width="1.5" PointX="45.75" PointY="37.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="axclassicModel.zone" Width="1.5" PointX="45.75" PointY="40.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="axclassicModel.zone___" Width="1.5" PointX="23.75" PointY="46.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="axclassicModel.zone_flags" Width="1.5" PointX="25.75" PointY="46.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="axclassicModel.zone_points" Width="1.5" PointX="31.75" PointY="46.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="axclassicModel.zone_server" Width="1.5" PointX="47.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="axclassicModel.zone_state_dump" Width="1.5" PointX="47.75" PointY="3.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="axclassicModel.zoneserver_auth" Width="1.5" PointX="6.75" PointY="47.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="axclassicModel.account_ip" Width="1.5" PointX="47.75" PointY="7.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="axclassicModel.account_rewards" Width="1.5" PointX="8.75" PointY="47.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="axclassicModel.book" Width="1.5" PointX="47.75" PointY="10.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="axclassicModel.botbuffs_old" Width="1.5" PointX="10.75" PointY="47.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="axclassicModel.character_tribute" Width="1.5" PointX="47.75" PointY="13.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="axclassicModel.core_version" Width="1.5" PointX="15.75" PointY="47.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="axclassicModel.eqtime" Width="1.5" PointX="47.75" PointY="16.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="axclassicModel.gm_ips" Width="1.5" PointX="47.75" PointY="19.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="axclassicModel.guild_bank" Width="1.5" PointX="47.75" PointY="22.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="axclassicModel.guild_members" Width="1.5" PointX="47.75" PointY="26.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="axclassicModel.inventory_version" Width="1.5" PointX="27.75" PointY="47.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="axclassicModel.item" Width="1.5" PointX="47.75" PointY="30.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="axclassicModel.keyring" Width="1.5" PointX="17.75" PointY="48.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="axclassicModel.log" Width="1.5" PointX="33.75" PointY="48.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="axclassicModel.qed_quests" Width="1.5" PointX="35.75" PointY="48.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="axclassicModel.raid_leaders" Width="1.5" PointX="41.75" PointY="48.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="axclassicModel.sharedbank" Width="1.5" PointX="49.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="axclassicModel.spawn_condition_values" Width="1.5" PointX="0.75" PointY="49.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="axclassicModel.spell" Width="1.5" PointX="2.75" PointY="49.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="axclassicModel.trader_audit" Width="1.5" PointX="49.75" PointY="4.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="axclassicModel.veteran_reward_templates" Width="1.5" PointX="49.75" PointY="8.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="axclassicModel.vspawnloc" Width="1.5" PointX="49.75" PointY="11.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="axclassicModel.vw_bot_character_mobs" Width="1.5" PointX="49.75" PointY="16.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="axclassicModel.vw_bot_groups" Width="1.5" PointX="19.75" PointY="49.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="axclassicModel.vw_groups" Width="1.5" PointX="49.75" PointY="20.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="axclassicModel.vw_guild_members" Width="1.5" PointX="49.75" PointY="23.75" IsExpanded="true" />
+        <AssociationConnector Association="axclassicModel.FK_bot_buffs_1" ManuallyRouted="false" />
+        <AssociationConnector Association="axclassicModel.FK_bot_group_members_2" ManuallyRouted="false" />
+        <AssociationConnector Association="axclassicModel.FK_bot_groups_1" ManuallyRouted="false" />
+        <AssociationConnector Association="axclassicModel.FK_bot_heal_rotation_members_2" ManuallyRouted="false" />
+        <AssociationConnector Association="axclassicModel.FK_bot_heal_rotations" ManuallyRouted="false" />
+        <AssociationConnector Association="axclassicModel.FK_bot_inventories_1" ManuallyRouted="false" />
+        <AssociationConnector Association="axclassicModel.FK_bot_pets_1" ManuallyRouted="false" />
+        <AssociationConnector Association="axclassicModel.FK_bot_stances_1" ManuallyRouted="false" />
+        <AssociationConnector Association="axclassicModel.FK_bot_timers_1" ManuallyRouted="false" />
+        <AssociationConnector Association="axclassicModel.FK_bot_group_members_1" ManuallyRouted="false" />
+        <AssociationConnector Association="axclassicModel.FK_bot_heal_rotation_members_1" ManuallyRouted="false" />
+        <AssociationConnector Association="axclassicModel.FK_bot_heal_rotation_targets" ManuallyRouted="false" />
+        <AssociationConnector Association="axclassicModel.FK_bot_pet_buffs_1" ManuallyRouted="false" />
+        <AssociationConnector Association="axclassicModel.FK_bot_pet_inventories_1" ManuallyRouted="false" />
+        <AssociationConnector Association="axclassicModel.FK_botbuff_1" ManuallyRouted="false" />
+        <AssociationConnector Association="axclassicModel.FK_botgroup_1" ManuallyRouted="false" />
+        <AssociationConnector Association="axclassicModel.FK_botgroupmembers_1" ManuallyRouted="false" />
+        <AssociationConnector Association="axclassicModel.FK_botgroupmembers_2" ManuallyRouted="false" />
+        <AssociationConnector Association="axclassicModel.FK_botinventory_1" ManuallyRouted="false" />
+        <AssociationConnector Association="axclassicModel.FK_botpetbuffs_1" ManuallyRouted="false" />
+        <AssociationConnector Association="axclassicModel.FK_botpetinventory_1" ManuallyRouted="false" />
+        <AssociationConnector Association="axclassicModel.FK_botpets_1" ManuallyRouted="false" />
+        <AssociationConnector Association="axclassicModel.FK_botstances_1" ManuallyRouted="false" />
+        <AssociationConnector Association="axclassicModel.FK_bottimers_1" ManuallyRouted="false" />
+        <AssociationConnector Association="axclassicModel.FK_mercbuff_1" ManuallyRouted="false" />
+        <AssociationConnector Association="axclassicModel.FK_merc_spell_lists_1" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

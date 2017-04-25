@@ -45,5 +45,6 @@ namespace EQEmu_Toolkit.Entities
         public Nullable<float> buffer { get; set; }
         public long client_version_mask { get; set; }
         public byte is_ldon_door { get; set; }
+        public sbyte disable_timer { get; set; }
     }
 }

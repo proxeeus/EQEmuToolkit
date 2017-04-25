@@ -5,8 +5,24 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:EQEmu_Toolkit"
         mc:Ignorable="d"
-        Title="MainWindow" Height="350" Width="525">
+        Title="MainWindow" Height="940.789" Width="942.105">
     <Grid>
-        
+        <TabControl x:Name="tabControl" HorizontalAlignment="Left" Height="890" Margin="10,10,0,0" VerticalAlignment="Top" Width="914" SelectionChanged="tabControl_SelectionChanged">
+            <TabItem Header="Merchant Importer">
+                <Grid Background="#FFE5E5E5">
+                    <DataGrid x:Name="dataGrid" HorizontalAlignment="Left" VerticalAlignment="Top" Height="852" Width="898"/>
+                    <Button x:Name="button" Content="Parse Project 1999 wiki" HorizontalAlignment="Left" Margin="10,25,0,0" VerticalAlignment="Top" Width="136" Click="button_Click" IsEnabled="False"/>
+                    <Button x:Name="button2" Content="Add Item IDs to XML" HorizontalAlignment="Left" Margin="10,72,0,0" VerticalAlignment="Top" Width="136" Click="button2_Click"/>
+                    <Button x:Name="button3" Content="Generate SQL from XML" HorizontalAlignment="Left" Margin="10,105,0,0" VerticalAlignment="Top" Width="136" Click="button3_Click"/>
+                    <TextBox x:Name="addItemsTextBox" HorizontalAlignment="Left" Height="20" Margin="151,72,0,0" TextWrapping="Wrap" Text="C:\Users\LENOVO\Desktop\export_merchants_P99_FIX1.xml" VerticalAlignment="Top" Width="383"/>
+                    <TextBox x:Name="generateSQLTextBox" HorizontalAlignment="Left" Height="20" Margin="151,105,0,0" TextWrapping="Wrap" Text="C:\Users\LENOVO\Desktop\export_merchants_P99_FIX2_ITEMS.xml" VerticalAlignment="Top" Width="383"/>
+                    <TextBox x:Name="startIndexTextBox" HorizontalAlignment="Left" Height="19" Margin="151,130,0,0" TextWrapping="Wrap" Text="500000" VerticalAlignment="Top" Width="78"/>
+                    <Label x:Name="label" Content="Start index:" HorizontalAlignment="Left" Margin="82,126,0,0" VerticalAlignment="Top" Height="28"/>
+                </Grid>
+            </TabItem>
+            <TabItem Header="TabItem"/>
+            <Button x:Name="button1" Content="Button" Height="100" Width="75"/>
+        </TabControl>
+
     </Grid>
 </Window>

@@ -4,7 +4,7 @@
   <edmx:Runtime>
     <!-- SSDL content -->
     <edmx:StorageModels>
-      <Schema Namespace="axclassicModel.Store" Provider="MySql.Data.MySqlClient" ProviderManifestToken="5.5" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+    <Schema Namespace="axclassicModel.Store" Provider="MySql.Data.MySqlClient" ProviderManifestToken="5.5" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
         <EntityType Name="aa_ability">
           <Key>
             <PropertyRef Name="id" />
@@ -1666,12 +1666,6 @@ warning 6002: The table/view 'def.axclassic.core_version' does not have a primar
           <Property Name="type" Type="int" Nullable="false" />
           <Property Name="value" Type="text" Nullable="false" />
         </EntityType>
-        <!--Errors Found During Generation:
-warning 6013: The table/view 'def.axclassic.db_version' does not have a primary key defined and no valid primary key could be inferred. This table/view has been excluded. To use the entity, you will need to review your schema, add the correct keys, and uncomment it.
-        <EntityType Name="db_version">
-          <Property Name="version" Type="int" />
-          <Property Name="bots_version" Type="int" />
-        </EntityType>-->
         <EntityType Name="discovered_items">
           <Key>
             <PropertyRef Name="item_id" />
@@ -1702,6 +1696,7 @@ warning 6013: The table/view 'def.axclassic.db_version' does not have a primary 
           <Property Name="nokeyring" Type="utinyint" Nullable="false" />
           <Property Name="triggerdoor" Type="smallint" Nullable="false" />
           <Property Name="triggertype" Type="smallint" Nullable="false" />
+          <Property Name="disable_timer" Type="tinyint" Nullable="false" />
           <Property Name="doorisopen" Type="smallint" Nullable="false" />
           <Property Name="door_param" Type="int" Nullable="false" />
           <Property Name="dest_zone" Type="varchar" MaxLength="16" />
@@ -3364,6 +3359,7 @@ warning 6002: The table/view 'def.axclassic.logs' does not have a primary key de
           <Property Name="peqid" Type="int" Nullable="false" />
           <Property Name="unique_" Type="tinyint" Nullable="false" />
           <Property Name="fixed" Type="tinyint" Nullable="false" />
+          <Property Name="ignore_despawn" Type="tinyint" Nullable="false" />
         </EntityType>
         <EntityType Name="npc_types_metadata">
           <Key>
@@ -3619,19 +3615,6 @@ warning 6002: The table/view 'def.axclassic.qed_quests' does not have a primary 
           <Property Name="char_cp" Type="int" />
           <Property Name="char_items" Type="mediumint" />
         </EntityType>
-        <!--Errors Found During Generation:
-warning 6013: The table/view 'def.axclassic.qs_merchant_transaction_record_entries' does not have a primary key defined and no valid primary key could be inferred. This table/view has been excluded. To use the entity, you will need to review your schema, add the correct keys, and uncomment it.
-        <EntityType Name="qs_merchant_transaction_record_entries">
-          <Property Name="event_id" Type="int" />
-          <Property Name="char_slot" Type="mediumint" />
-          <Property Name="item_id" Type="int" />
-          <Property Name="charges" Type="mediumint" />
-          <Property Name="aug_1" Type="int" />
-          <Property Name="aug_2" Type="int" />
-          <Property Name="aug_3" Type="int" />
-          <Property Name="aug_4" Type="int" />
-          <Property Name="aug_5" Type="int" />
-        </EntityType>-->
         <EntityType Name="qs_player_aa_rate_hourly">
           <Key>
             <PropertyRef Name="char_id" />
@@ -3651,19 +3634,6 @@ warning 6013: The table/view 'def.axclassic.qs_merchant_transaction_record_entri
           <Property Name="stack_size" Type="mediumint" />
           <Property Name="char_items" Type="mediumint" />
         </EntityType>
-        <!--Errors Found During Generation:
-warning 6013: The table/view 'def.axclassic.qs_player_delete_record_entries' does not have a primary key defined and no valid primary key could be inferred. This table/view has been excluded. To use the entity, you will need to review your schema, add the correct keys, and uncomment it.
-        <EntityType Name="qs_player_delete_record_entries">
-          <Property Name="event_id" Type="int" />
-          <Property Name="char_slot" Type="mediumint" />
-          <Property Name="item_id" Type="int" />
-          <Property Name="charges" Type="mediumint" />
-          <Property Name="aug_1" Type="int" />
-          <Property Name="aug_2" Type="int" />
-          <Property Name="aug_3" Type="int" />
-          <Property Name="aug_4" Type="int" />
-          <Property Name="aug_5" Type="int" />
-        </EntityType>-->
         <EntityType Name="qs_player_events">
           <Key>
             <PropertyRef Name="id" />
@@ -3694,20 +3664,6 @@ warning 6013: The table/view 'def.axclassic.qs_player_delete_record_entries' doe
           <Property Name="npc_cp" Type="int" />
           <Property Name="npc_items" Type="mediumint" />
         </EntityType>
-        <!--Errors Found During Generation:
-warning 6013: The table/view 'def.axclassic.qs_player_handin_record_entries' does not have a primary key defined and no valid primary key could be inferred. This table/view has been excluded. To use the entity, you will need to review your schema, add the correct keys, and uncomment it.
-        <EntityType Name="qs_player_handin_record_entries">
-          <Property Name="event_id" Type="int" />
-          <Property Name="action_type" Type="char" MaxLength="6" />
-          <Property Name="char_slot" Type="mediumint" />
-          <Property Name="item_id" Type="int" />
-          <Property Name="charges" Type="mediumint" />
-          <Property Name="aug_1" Type="int" />
-          <Property Name="aug_2" Type="int" />
-          <Property Name="aug_3" Type="int" />
-          <Property Name="aug_4" Type="int" />
-          <Property Name="aug_5" Type="int" />
-        </EntityType>-->
         <EntityType Name="qs_player_move_record">
           <Key>
             <PropertyRef Name="move_id" />
@@ -3721,20 +3677,6 @@ warning 6013: The table/view 'def.axclassic.qs_player_handin_record_entries' doe
           <Property Name="char_items" Type="mediumint" />
           <Property Name="postaction" Type="bool" />
         </EntityType>
-        <!--Errors Found During Generation:
-warning 6013: The table/view 'def.axclassic.qs_player_move_record_entries' does not have a primary key defined and no valid primary key could be inferred. This table/view has been excluded. To use the entity, you will need to review your schema, add the correct keys, and uncomment it.
-        <EntityType Name="qs_player_move_record_entries">
-          <Property Name="event_id" Type="int" />
-          <Property Name="from_slot" Type="mediumint" />
-          <Property Name="to_slot" Type="mediumint" />
-          <Property Name="item_id" Type="int" />
-          <Property Name="charges" Type="mediumint" />
-          <Property Name="aug_1" Type="int" />
-          <Property Name="aug_2" Type="int" />
-          <Property Name="aug_3" Type="int" />
-          <Property Name="aug_4" Type="int" />
-          <Property Name="aug_5" Type="int" />
-        </EntityType>-->
         <EntityType Name="qs_player_npc_kill_record">
           <Key>
             <PropertyRef Name="fight_id" />
@@ -3745,12 +3687,6 @@ warning 6013: The table/view 'def.axclassic.qs_player_move_record_entries' does 
           <Property Name="zone_id" Type="int" />
           <Property Name="time" Type="timestamp" Precision="0" />
         </EntityType>
-        <!--Errors Found During Generation:
-warning 6013: The table/view 'def.axclassic.qs_player_npc_kill_record_entries' does not have a primary key defined and no valid primary key could be inferred. This table/view has been excluded. To use the entity, you will need to review your schema, add the correct keys, and uncomment it.
-        <EntityType Name="qs_player_npc_kill_record_entries">
-          <Property Name="event_id" Type="int" />
-          <Property Name="char_id" Type="int" />
-        </EntityType>-->
         <EntityType Name="qs_player_speech">
           <Key>
             <PropertyRef Name="id" />
@@ -3783,22 +3719,6 @@ warning 6013: The table/view 'def.axclassic.qs_player_npc_kill_record_entries' d
           <Property Name="char2_cp" Type="int" />
           <Property Name="char2_items" Type="mediumint" />
         </EntityType>
-        <!--Errors Found During Generation:
-warning 6013: The table/view 'def.axclassic.qs_player_trade_record_entries' does not have a primary key defined and no valid primary key could be inferred. This table/view has been excluded. To use the entity, you will need to review your schema, add the correct keys, and uncomment it.
-        <EntityType Name="qs_player_trade_record_entries">
-          <Property Name="event_id" Type="int" />
-          <Property Name="from_id" Type="int" />
-          <Property Name="from_slot" Type="mediumint" />
-          <Property Name="to_id" Type="int" />
-          <Property Name="to_slot" Type="mediumint" />
-          <Property Name="item_id" Type="int" />
-          <Property Name="charges" Type="mediumint" />
-          <Property Name="aug_1" Type="int" />
-          <Property Name="aug_2" Type="int" />
-          <Property Name="aug_3" Type="int" />
-          <Property Name="aug_4" Type="int" />
-          <Property Name="aug_5" Type="int" />
-        </EntityType>-->
         <EntityType Name="quest_globals">
           <Key>
             <PropertyRef Name="charid" />
@@ -6425,8 +6345,7 @@ FROM `vw_guild_members` AS `vw_guild_members`</DefiningQuery>
             <End Role="merc_buffs" EntitySet="merc_buffs" />
           </AssociationSet>
         </EntityContainer>
-      </Schema>
-    </edmx:StorageModels>
+      </Schema></edmx:StorageModels>
     <!-- CSDL content -->
     <edmx:ConceptualModels>
       <Schema Namespace="axclassicModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
@@ -8064,6 +7983,7 @@ FROM `vw_guild_members` AS `vw_guild_members`</DefiningQuery>
           <Property Name="buffer" Type="Single" />
           <Property Name="client_version_mask" Type="Int64" Nullable="false" />
           <Property Name="is_ldon_door" Type="Byte" Nullable="false" />
+          <Property Name="disable_timer" Type="SByte" Nullable="false" />
         </EntityType>
         <EntityType Name="editor_values">
           <Key>
@@ -9044,6 +8964,7 @@ FROM `vw_guild_members` AS `vw_guild_members`</DefiningQuery>
           <Property Name="peqid" Type="Int32" Nullable="false" />
           <Property Name="unique_" Type="SByte" Nullable="false" />
           <Property Name="fixed" Type="SByte" Nullable="false" />
+          <Property Name="ignore_despawn" Type="SByte" Nullable="false" />
         </EntityType>
         <EntityType Name="npc_types_metadata">
           <Key>
@@ -13759,6 +13680,7 @@ FROM `vw_guild_members` AS `vw_guild_members`</DefiningQuery>
           <EntitySetMapping Name="doors">
             <EntityTypeMapping TypeName="axclassicModel.door">
               <MappingFragment StoreEntitySet="doors">
+                <ScalarProperty Name="disable_timer" ColumnName="disable_timer" />
                 <ScalarProperty Name="id" ColumnName="id" />
                 <ScalarProperty Name="doorid" ColumnName="doorid" />
                 <ScalarProperty Name="zone" ColumnName="zone" />
@@ -14700,6 +14622,7 @@ FROM `vw_guild_members` AS `vw_guild_members`</DefiningQuery>
           <EntitySetMapping Name="npc_types">
             <EntityTypeMapping TypeName="axclassicModel.npc_types">
               <MappingFragment StoreEntitySet="npc_types">
+                <ScalarProperty Name="ignore_despawn" ColumnName="ignore_despawn" />
                 <ScalarProperty Name="id" ColumnName="id" />
                 <ScalarProperty Name="name" ColumnName="name" />
                 <ScalarProperty Name="lastname" ColumnName="lastname" />

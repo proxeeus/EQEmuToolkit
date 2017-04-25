@@ -120,5 +120,6 @@ namespace EQEmu_Toolkit.Entities
         public int peqid { get; set; }
         public sbyte unique_ { get; set; }
         public sbyte @fixed { get; set; }
+        public sbyte ignore_despawn { get; set; }
     }
 }
